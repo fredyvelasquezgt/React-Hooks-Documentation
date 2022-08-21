@@ -51,7 +51,7 @@ function MoodEmoji() {
 }
 ```
 
-Es tambien recomendado utilizar el _Consumer_, basicamente, el **useContext** hook es un reemplazo del limpiador del consumer.
+Es también recomendado utilizar el _Consumer_, basicamente, el **useContext** hook es un reemplazo del limpiador del consumer.
 
 ```
 function MoodEmoji() {
