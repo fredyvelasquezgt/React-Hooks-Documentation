@@ -51,3 +51,20 @@ function App() {
     return <button onClick={() => useHook()}> </button>
 }
 ```
+### Lista de hooks por abordar
+
+**Hooks basicos**
+
+- useState
+- useEffect
+- useContext
+
+**Hooks adicionales**
+
+- useReducer
+- useCallback
+- useMemo
+- useRef
+- useImperativeHandler
+- userLayoutEffect
+- useDebugValue
