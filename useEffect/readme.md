@@ -25,3 +25,30 @@ componenteWillUnmount() {
 ```
 
 El _useEffect_ me permite agregarle logica a cada uno de los procesos anteriores.
+
+Ahora estudiemos la estructura del _useEffect_
+
+1. Como primer argumento toma una funcion definida por mi.
+
+React corre esta funcion cuando el componente es montado o cuando el estado cambia.
+
+2. El segundo argumento es un **array** de dependencias.
+
+- Si se agrega un **array vacio** quiere decir que no hay dependencias, esto significa que solo se correra una vez: cuando el componente es inicializado.
+
+- Agregar el estado. Agregar el estado en el array significa que React seguira este valor y correra la funcion que definimos cada vez que el estado cambie.
+
+```
+useEffect(() => {
+    //Alguna funcion construida por mi
+}, [//array con dependencias])
+```
+
+Finalmente, tambien se puede correr codigo cuando el componente es destruido, esto se implementa retornando una funcion desde el **callback** del _useEffect_
+
+```
+useEffect(() => {
+
+    return () => alert('adios!')
+})
+```
