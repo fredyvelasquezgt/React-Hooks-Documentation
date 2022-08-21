@@ -50,5 +50,6 @@ Finalmente, tambien se puede correr codigo cuando el componente es destruido, es
 useEffect(() => {
 
     return () => alert('adios!')
+    
 })
 ```
