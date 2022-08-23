@@ -23,7 +23,7 @@ function App() {
 ```
 
 En lugar de volver a computar en cada renderización, podemos memoize el valor. Escribimos una funcion que retorne el valor computado, luego, como segundo argumento agregamos las dependencias para determinar cuando la computación debería de correrse, en este caso, sería cuando el valor de **count** cambie.
-Esto es bueno para un valor memoizado pero también se puede aplicar para una función.
+Esto es bueno para un valor memoizado pero también se puede aplicar a una función.
 
 ```
 function App() {
