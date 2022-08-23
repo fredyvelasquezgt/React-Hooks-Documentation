@@ -2,7 +2,7 @@
 
 Me ayuda a optimizar los costos de cómputo para mejorar el rendimiento. Lo uso cuando sé que voy a tener que exigir mucho rendimiento.
 
-Memoization: Cache resultante de la llamada de una función.
+Memoization: Técnica de optimización que hace a las apps más rápidas. Cache resultante de la llamada de una función.
 
 Precaución: Solo se debe de optimizar el cómputo si es necesario para cálculos costosos.
 
