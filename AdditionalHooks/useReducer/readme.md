@@ -48,10 +48,8 @@ function App() {
     return (
         <>
             Count: {state}
-            <button onClick={() => dispatch({type: 'decrement'})}>
-            - </button>
-            <button onClick={() => dispatch({type: 'increment'})}>
-            + </button>
+            <button onClick={() => dispatch({type: 'decrement'})}> - </button>
+            <button onClick={() => dispatch({type: 'increment'})}> + </button>
         </>
     )
 }
